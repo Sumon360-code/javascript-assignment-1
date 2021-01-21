@@ -23,7 +23,7 @@ console.log(output);
 
 // 3rd question about Hotel Cost
 function hotelCost(totalDay){
-    var living = 0;
+    var totalLivingDays = 0;
     if(totalDay<=10){
         var firstTenDays = totalDay*100;
     }
@@ -31,18 +31,32 @@ function hotelCost(totalDay){
         var firstTenDays = 10*100;
         var remainingDays = totalDay - 10; // for others extra 7 days
         var secondTenDays = remainingDays*80;
-        var living = firstTenDays + secondTenDays;
+        var totalLivingDays = firstTenDays + secondTenDays;
     }
     else{
         var firstTenDays = 10*100;
         var secondTenDays = 10*80;
         var remainingDays = totalDay - 20;
         var otherDays = remainingDays*50;
-        var living = firstTenDays + secondTenDays + otherDays;
+        var totalLivingDays = firstTenDays + secondTenDays + otherDays;
     }
-    return living;
+    return totalLivingDays;
 
 }
 var totalResult = hotelCost(17);
 console.log(totalResult);
 
+
+// 4th question return the largest name of an array
+function megaFriend(friendName){
+    var largest = friendName[0];
+    for (i = 0; i < friendName.length; i++){
+        var hisName = friendName[i];
+        if (hisName.length > largest.length){
+            largest = hisName;
+        }
+    }
+    return largest;
+}
+var result =megaFriend( ['Ahmed', 'Sumon', 'Rahat Siddiq', 'Tanjid', 'Kawser']);
+console.log("The Longest name of this list is:", result);
