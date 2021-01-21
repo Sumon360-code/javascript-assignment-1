@@ -6,7 +6,6 @@ function kilometerToMeter(meter){
 }
 var oneMeter = 1000;
 var result = kilometerToMeter(7);
-console.log(result);
 
 // 2nd question budget of calculator
 function budgetCalculator(watch,phone,laptop) {
@@ -17,8 +16,6 @@ function budgetCalculator(watch,phone,laptop) {
     return totalBudget;
 }
 var output = budgetCalculator (50, 100, 500); //total output
-
-console.log(output);
 
 
 // 3rd question about Hotel Cost
@@ -44,7 +41,6 @@ function hotelCost(totalDay){
 
 }
 var totalResult = hotelCost(17);
-console.log(totalResult);
 
 
 // 4th question return the largest name of an array
@@ -59,4 +55,3 @@ function megaFriend(friendName){
     return largest;
 }
 var result =megaFriend( ['Ahmed', 'Sumon', 'Rahat Siddiq', 'Tanjid', 'Kawser']);
-console.log("The Longest name of this list is:", result);
