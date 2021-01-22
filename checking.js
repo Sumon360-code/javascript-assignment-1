@@ -54,4 +54,4 @@ function megaFriend(friendName){
     }
     return largest;
 }
-var largestNameOfArray =megaFriend( ['Ahmed', 'Sumon', 'Rahat', 'Tanjid', 'Kawser Ahmed', 'Omar', 'Palash']);
+var largestNameOfArray =megaFriend( ['Ahmed', 'Sumon', 'Rahat Siddiq', 'Tanjid', 'Kawser']);
