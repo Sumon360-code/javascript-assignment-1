@@ -7,6 +7,7 @@ function kilometerToMeter(meter){
 var oneMeter = 1000;
 var result = kilometerToMeter(7);
 
+
 // 2nd question budget of calculator
 function budgetCalculator(watch,phone,laptop) {
     const priceOfWatch = watch * 50;   //price for watch 
@@ -16,7 +17,6 @@ function budgetCalculator(watch,phone,laptop) {
     return totalBudget;
 }
 var output = budgetCalculator (50, 100, 500); //total output
-
 
 // 3rd question about Hotel Cost
 function hotelCost(totalDay){
@@ -42,8 +42,8 @@ function hotelCost(totalDay){
 }
 var totalResult = hotelCost(17);
 
-
 // 4th question return the largest name of an array
+
 function megaFriend(friendName){
     var largest = friendName[0];
     for (i = 0; i < friendName.length; i++){
@@ -54,4 +54,4 @@ function megaFriend(friendName){
     }
     return largest;
 }
-var result =megaFriend( ['Ahmed', 'Sumon', 'Rahat Siddiq', 'Tanjid', 'Kawser']);
+var largestNameOfArray =megaFriend( ['Ahmed', 'Sumon', 'Rahat Siddiq', 'Tanjid', 'Kawser']);
